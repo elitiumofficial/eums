@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=eums
+Comment=eums P2P Cryptocurrency
+Comment[fr]=eums, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=eums, eşten eşe kriptografik sanal para birimi
+Exec=eums-qt %u
+Terminal=false
+Type=Application
+Icon=eums128
+MimeType=x-scheme-handler/eums;
+Categories=Office;Finance;

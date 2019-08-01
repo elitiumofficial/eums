@@ -1,0 +1,26 @@
+[Unit]
+Description=eums's distributed currency daemon
+After=network.target
+
+[Service]
+User=eums
+Group=eums
+
+Type=forking
+PIDFile=/var/lib/eumsd/eumsd.pid
+
+ExecStart=/usr/bin/eumsd -daemon -pid=/var/lib/eumsd/eumsd.pid \
+          -conf=/etc/eums/eums.conf -datadir=/var/lib/eumsd
+
+ExecStop=-/usr/bin/eums-cli -conf=/etc/eums/eums.conf \
+         -datadir=/var/lib/eumsd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

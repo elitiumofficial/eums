@@ -1,0 +1,26 @@
+# /etc/conf.d/eumsd: config file for /etc/init.d/eumsd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/eums/eums.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/eumsd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/eumsd.pid"
+
+# Where to write eumsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/eumsd"
+
+# User and group to own eumsd process
+#BITCOIND_USER="eums"
+#BITCOIND_GROUP="eums"
+
+# Path to eumsd executable
+#BITCOIND_BIN="/usr/bin/eumsd"
+
+# Nice value to run eumsd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
