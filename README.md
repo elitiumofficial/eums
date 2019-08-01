@@ -23,8 +23,8 @@ More information at [eums.io](http://www.eums.io)
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>Max Coin Supply (PoS)</td><td>332,200,000Mil EUMS</td></tr>
-<tr><td>Premine/Initial Supply</td><td>10%</td></tr>
-<tr><td>eums Created Per block</td><td>5 EUMS*</td></tr>
+<tr><td>Premine/Initial Supply</td><td>11%</td></tr>
+<tr><td>eums Created Per block</td><td>3 EUMS*</td></tr>
 </table>
 
 *First 1000 Blocks PoW. 1001 - Infinite Blocks PoS only.
@@ -44,13 +44,13 @@ More information at [eums.io](http://www.eums.io)
 
 ### Masternode Reward Details
 <table>
-<tr><td>eums Produced</td><td> 3.75 EUMS Per Block</td></tr>
+<tr><td>eums Produced</td><td> 2.25 EUMS Per Block</td></tr>
 
 </table>
 
 ### Staking Reward Details
 <table>
-<tr><td>eums Produced</td><td> 1.25 EUMS Per Block</td></tr>
+<tr><td>eums Produced</td><td> 0.75 EUMS Per Block</td></tr>
 <tr><td>Rewards Algorithm</td><td>Teeter Totter Based Targeting System</td></tr>
 <tr><td>Amount of Rewards Per Block</td><td>2 Rewards, 1 for Masternodes, 1 for Wallet Staking</td></tr>
 <tr><td>Coin Maturity to Stake</td><td>150 Blocks</td></tr>
