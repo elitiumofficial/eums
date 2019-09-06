@@ -13,7 +13,7 @@ Elitium Staking is a cutting edge cryptocurrency, with many features not availab
   technology used to secure the network and provide the above features, each Masternode is secured
   with collateral of 100,000 EUMS
 
-More information at [eums.io](http://www.eums.io)
+More information at [elitium.io](https://www.elitium.io)
 
 ### Coin Specs
 <table>
