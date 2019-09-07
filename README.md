@@ -1,7 +1,3 @@
-<a href="http://es.tinypic.com?ref=2a5dwfb" target="_blank"><img src="http://i68.tinypic.com/2a5dwfb.png" border="0" alt="Image and video hosting by TinyPic"></a>
-
-
-
 EUMS Core integration/staging repository
 =====================================
 
