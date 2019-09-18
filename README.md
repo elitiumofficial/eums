@@ -53,6 +53,8 @@ Elitium Staking is a cutting edge cryptocurrency, with many features not availab
 <tr><td>Amount of Rewards Per Block</td><td>2 Rewards, 1 for Masternodes, 1 for Wallet Staking</td></tr>
 <tr><td>Coin Maturity to Stake</td><td>150 Blocks</td></tr>
 
-</table>
+</table><br>
+<br>
 
-More information at [elitium.io](https://www.elitium.io)
+<p align="center">For more information<br>
+https://www.elitium.io</p>
