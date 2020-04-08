@@ -56,5 +56,8 @@ Elitium Staking is a cutting edge cryptocurrency, with many features not availab
 </table><br>
 <br>
 
+<br>
+<br>
+
 <p align="center">For more information<br>
 https://www.elitium.io</p>
