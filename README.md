@@ -3,7 +3,7 @@
 
 EUMS Core integration
 =====================================
-Version 2.0.1
+Elitium Staking Version 2.0.1
 
 <br>
 
