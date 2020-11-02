@@ -5,6 +5,7 @@ EUMS Core integration
 =====================================
 Version 2.0.1
 
+
 Elitium Staking is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using coin mixing technology, we call it _Coin Mixing_.
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _FastSend_.
