@@ -368,28 +368,28 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xb6;
-        pchMessageStart[1] = 0x13;
-        pchMessageStart[2] = 0xb7;
-        pchMessageStart[3] = 0xfc;
+        pchMessageStart[0] = 0xh6;
+        pchMessageStart[1] = 0x93;
+        pchMessageStart[2] = 0xe7;
+        pchMessageStart[3] = 0xvc;
         vAlertPubKey = ParseHex("0410544f386dfb318cd00c7c5471c4ac92317c12e0d86915942c39ea00f3df08a90b64b0887523a8a6f33f62b109049ba4d2d19d2f8b97fe620f5b1980f86f1429");
-        nDefaultPort = 55606;
+        nDefaultPort = 87501;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // eums starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
-        nEnforceBlockUpgradeMajority = 750;
-        nRejectBlockOutdatedMajority = 950;
-        nToCheckBlockUpgradeMajority = 1000;
+        nEnforceBlockUpgradeMajority = 100;
+        nRejectBlockOutdatedMajority = 250;
+        nToCheckBlockUpgradeMajority = 300;
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // eums: 1 day
         nTargetSpacing = 1 * 60;  // eums: 1 minute
-        nLastPOWBlock = 1000;
+        nLastPOWBlock = 20000000;
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 615800;
         nMaxMoneyOut = 332200000 * COIN;
 
-        const char* pszTimestamp = "Elitium Staking July 24 2019";
+        const char* pszTimestamp = "Devilking6105 says to enjoy your day on December 1 2020";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -445,9 +445,9 @@ const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
 
         assert(hashGenesisBlock == uint256("0x59b2611a3a353e50c3276c395368f69c8ac7688aff7ef6258bb3a385781543db"));
 
-        vSeeds.push_back(CDNSSeedData("199.247.26.240", "199.247.26.240"));     // Primary DNS Seeder Amsterdam
+        /* vSeeds.push_back(CDNSSeedData("199.247.26.240", "199.247.26.240"));  */   // Primary DNS Seeder Amsterdam
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 33);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(083, 067, 078);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 35);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x2D)(0x02)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
